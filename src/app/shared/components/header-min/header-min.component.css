@@ -1,0 +1,94 @@
+
+@font-face {
+	font-family: 'PTRootUIWebBold';
+	src: url('/src/assets/fonts/PT\ Root\ UI_Bold/');
+	src:
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.eot') format('embedded-opentype'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.woff2') format('woff2'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.woff') format('woff'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.ttf') format('truetype'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+   
+ 
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrap{
+    display: flex;
+    height: 90px;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.dark{
+    color: #142558;
+}
+.gray{
+color:#a1a7bd;
+}
+.red{
+    color: #f54732;
+}
+.top{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 90px;
+    align-items: center;
+}
+.top_left{
+    display: flex;
+    height: 90px;
+    width: 370px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    
+    display: flex; 
+    background: #fff;     
+}
+
+
+.telephone{
+    margin-left: 866px;
+    display: flex;
+    align-items: center;
+    
+}
+.number {
+    display: flex;
+    font-size: 16px;
+    width: 144px;
+    height: 16px;
+   
+    
+}
+.number_text{
+        font-size: 16px;
+       margin-left: 10px;
+        height: 16px;
+     font-weight: bold;
+}
+    
+ 

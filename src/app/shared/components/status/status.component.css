@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.status_wrap{
+    
+    background: #f3f5f8;
+    height: 1160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.status_wrap h1{
+    margin-top: 89px;
+}
+.status_wrap_block{
+    height: 875px;
+    width: 570px;
+    background: #fff;
+    margin-top: 59px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status_info{
+    width: 504px;
+    height: 77px;
+    margin-top: 38px;
+    border-bottom: 1px solid #f0f2f7;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.status_info_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+   
+}
+.status_info_number h3{
+    
+        font-size: 20px;
+        
+        color: rgb( 20, 37, 88 );
+        font-weight: bold;
+        line-height: 1.05;
+        width: 182px;
+        height: 14px;
+}
+.status_info_next a{
+    
+        font-size: 16px;
+        text-decoration: none;
+        color: rgb( 245, 71, 50 );
+        font-weight: bold;
+        line-height: 1.313;
+        margin-left: 144px;
+        width: 177px;
+        height: 14px;
+
+    }
+    .status_info_date{
+        margin-top: 19px;
+            font-size: 16px;
+            color: rgb( 161, 168, 189 );
+            line-height: 1.313;
+            width: 206px;
+            height: 14px;
+    }
+.status_info_way{
+    width: 504px;
+    height: 177px;
+    
+    border-bottom: 1px solid #f0f2f7;
+    display: flex;
+    flex-direction: column;
+    
+}
+.status_info_way_line{
+    width: 504px;
+    height: 30px;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+   
+
+}
+.status_info_way_item{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #a1a8bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+        font-weight: bold;
+}
+.status_info_way_item2 p{
+color: #a1a8bd;
+}
+.active{
+    color: #fff;
+    background: #142558;
+    border: 2px solid #142558;
+}
+.status_info_way_item2{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #a1a8bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+}
+
+.line{
+    
+    width: 210px;
+    height: 4px;
+    
+    border-top: 2px solid #a1a8bd;
+}
+.status_info_way_text{
+    width: 504px;
+    height: 30px;
+    margin-top: 13px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start; 
+    
+    color: rgb( 136, 143, 167 );
+    font-size: 16px;
+        
+}
+.text_active{
+   color: #142558;
+   font-weight: bold;
+}
+.status_info_way_text_right{
+  margin-left: 105px;
+}
+.status_info_way_text_center{
+    margin-left: 63px;
+  }
+  .status_info_amount{
+      margin-top: 52px;
+  }
+  .status_info_item{
+    width: 504px;
+    height: 99px;
+    border-bottom: 1px solid #f0f2f7;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+
+  .status_info_text{
+    display: flex;
+    flex-direction: column;
+    height: 99px;
+    width: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 18px;
+    
+}
+.status_info_text h4{
+        font-size: 14px;
+        color: rgb( 161, 168, 189 );   
+        margin-top: 9px; 
+}
+
+.status_info_text h3 {
+    font-size: 16px;
+    color: rgb( 20, 37, 88 );
+  }
+  .adres{
+      display: flex;
+      width: 504px;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  .adres h2{
+    
+        font-size: 20px;
+        margin-top: 33px;
+        color: rgb( 20, 37, 88 );
+        font-weight: bold;
+  }
+.text{
+    width: 250px;
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+        font-size: 16px;
+        margin-top: 15px;
+        color: rgb( 120, 128, 153 );
+}
+.text2{
+    width: 146px;
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+        font-size: 16px;
+        margin-top: 15px;
+        color: rgb( 120, 128, 153 );   
+}
+  

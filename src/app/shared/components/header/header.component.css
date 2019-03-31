@@ -1,0 +1,343 @@
+
+@font-face {
+	font-family: 'PTRootUIWebBold';
+	src: url('/src/assets/fonts/PT\ Root\ UI_Bold/');
+	src:
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.eot') format('embedded-opentype'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.woff2') format('woff2'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.woff') format('woff'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.ttf') format('truetype'),
+	     url('/src/assets/fonts/PT\ Root\ UI_Bold/PTRootUIWebBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+   
+ 
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    height: 148px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+   
+}
+.wrap{
+    display: flex;
+    height: 190px;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+.dark{
+    color: #142558;
+}
+.gray{
+color:#a1a7bd;
+}
+.red{
+    color: #f54732;
+}
+.top{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 90px;
+    align-items: center;
+    
+}
+.top_left{
+    display: flex;
+    height: 90px;
+    width: 370px;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_right{
+    
+        display: flex;
+        height: 90px;
+        width: 800px;
+        align-items: center;
+        justify-content: flex-end;   
+}
+
+.logo{
+    
+    display: flex; 
+    background: #fff;     
+}
+
+
+.telephone{
+    margin-left: 66px;
+    display: flex;
+    align-items: center;
+    
+}
+.number {
+    display: flex;
+    font-size: 16px;
+    width: 144px;
+    height: 16px;
+   
+    
+}
+.number_text{
+        font-size: 16px;
+       margin-left: 10px;
+        height: 16px;
+     font-weight: bold;
+}
+    
+  
+.status{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ShoppingCart{
+    display: flex;
+    align-items: center;
+    margin-left: 66px;
+    flex-flow: row nowrap;
+    
+    
+}
+.ShoppingCart img{
+
+}
+#status_text1{
+    margin-right: 9px;
+    margin-left: 8px;
+}
+.status_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 17px; 
+    height: 17px;
+    background: #f6f6fa;
+    outline: none;
+    border: 2px solid #dadee2;
+    cursor:pointer;
+}
+.status_button:hover{
+    background: #dadee2;
+}
+
+.ShoppingCart_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    width: 22px; 
+    height: 22px;
+    background: #dadee2;
+    outline: none;
+    margin-left: 10px;
+    cursor:pointer;
+    border: 2px solid #dadee2;
+    
+}
+.ShoppingCart_button p{
+font-size: 10px;
+font-weight: bold;
+}
+.ShoppingCart_button:hover{
+    background: #f6f6fa;
+}
+#text1{
+    margin-left: 8px;
+}
+.number_text p{
+    font-weight: 900;
+    
+}
+.SignIn{
+    
+    margin-left: 59px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+      
+}
+.SignIn_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 96px;
+    height: 32px;
+    border: 2px solid #e3e8f0;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.SignIn_button:hover{
+    border: 2px solid #f54732;
+} 
+.SignIn p{
+    margin-left: 7px;
+}
+.navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-top: 1px solid #a1a8bd;
+    border-bottom: 1px solid #a1a8bd;
+    justify-content: center;
+  
+}
+
+.menu{
+    display: flex;   
+    width: 790px;
+    height: 58px;
+    align-items: center;
+   
+   
+
+}
+.menu ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.menu li{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    
+    justify-content: flex-start;
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+    font-size: 12px;
+    margin-top: 22px;
+    padding-bottom: 23px;
+    border: 2px solid transparent;
+}
+.menu li:hover{
+   
+    border-bottom: 2px solid #f54732;
+    padding-bottom: 23px;  
+}
+
+.menu li a:active{
+    color: #f54732;
+}
+.menu-link{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-family: '[PTRootUI]';
+    font-size: 10px;
+    font-weight: bold;
+}
+.menu-link_icon{
+    
+  display: none;
+}
+.search{
+    display: flex;
+    height: 58px;
+    border-left: 1px solid #a1a8bd;
+    border-right: 1px solid #a1a8bd;
+
+}
+
+
+.search_form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 368px;
+    margin: 0 auto;
+    background: #ffffff;
+   
+  }
+
+  .search_form_input {
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  .search_form_button {
+    align-items: center;
+    height: 30px;
+    width: 32px; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+ @media screen and (max-width:750px){
+
+
+.main {
+ 
+    width: 750px;
+}
+.telephone{
+    display: none;
+}
+
+.status{
+    display: none;
+}
+.SignIn{
+    display: none;   
+}
+
+
+.menu-link_icon{
+   display: flex;
+  
+   align-items: center;
+    text-decoration: none;
+    color: #a1a8bd;
+    font-size: 20px;
+    
+    justify-content: flex-start;
+}
+.main{
+    height: 600px;
+}
+.media_menu{
+    display: block;
+}
+.navigation{
+    margin-top: 0;
+    height: 300px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    height: 20px;
+}
+
+ }
+ @media screen and (max-width:320px){
+     
+}
