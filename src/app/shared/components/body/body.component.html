@@ -1,11 +1,14 @@
 <div class="body_main">
-      <ul>
+     
           <!--  <li *ngFor="let item of itemsBody">
             
             <p>id: {{item?.id}}</p>
             </li>
           </ul>
         -->
+        <p *ngFor="let item of itemsBody">{{item?.id}}</p>
+
+
               <div class="placeholder">
                        <div class="placeholder_wrap">
                                  <h1 class="blue">Стулья и кресла</h1>
@@ -75,12 +78,12 @@
 
 <div class="goods">
 <div class="goods_wrap">
-          <div class="item1 blue" id="1">
+          <div *ngIf="test(1,itemsBody)" class="item blue" id="1">
                 <div class="item_img">
-                    <img src="assets/Слой-618.jpg">
+                    <img src="assets/hanna1.jpg">
                 </div>
                 <div class="item_text">
-                      <p>Стул Ханная</p>
+                      <p>Стул Ханна</p>
                 </div>
                 <div class="item_price">
                         <p>9 399 ₽</p>
@@ -91,7 +94,7 @@
 
           </div>
 
-          <div class="item blue" >
+          <div *ngIf="test(2,itemsBody)" class="item blue" >
             <div class="item_img">
                 <img src="assets/img12.jpg">
             </div>
@@ -107,7 +110,7 @@
 
       </div>
 
-      <div class="item blue" >
+      <div *ngIf="test(3,itemsBody)" class="item blue" >
             <div class="item_img">
                 <img src="assets/img11.jpg">
             </div>
@@ -123,7 +126,7 @@
 
       </div>
 
-      <div class="item blue" >
+      <div *ngIf="test(4,itemsBody)" class="item blue" >
             <div class="item_img">
                 <img src="assets/img10.jpg">
             </div>
@@ -139,7 +142,7 @@
 
       </div>
 
-      <div class="item1 blue">
+      <div *ngIf="test(5,itemsBody)"class="item blue">
             <div class="item_img">
                 <img src="assets/img9.jpg">
             </div>
@@ -154,7 +157,7 @@
             </div>
 
       </div>
-      <div class="item blue" >
+      <div *ngIf="test(6,itemsBody)" class="item blue" >
             <div class="item_img">
                 <img src="assets/img8.jpg">
             </div>
@@ -169,13 +172,13 @@
             </div>
 
       </div>
-      <div class="banner">
+      <div  class="banner">
             <h2 class="blue">Товары для дома<br> со скидкой </h2>
            <button class="banner_button blue">Смотреть все</button>
           
      
       </div>
-      <div class="item1 blue">
+      <div *ngIf="test(7,itemsBody)" class="item blue">
                   <div class="item_img">
                       <img src="assets/img7.jpg">
                   </div>
@@ -190,7 +193,7 @@
                   </div>
       
             </div>
-            <div class="item blue" >
+            <div *ngIf="test(8,itemsBody)" class="item blue" >
                   <div class="item_img">
                       <img src="assets/img6.jpg">
                   </div>
@@ -205,7 +208,7 @@
                   </div>
       
             </div>
-            <div class="item blue" >
+            <div *ngIf="test(9,itemsBody)"class="item blue" >
                         <div class="item_img">
                             <img src="assets/img5.jpg">
                         </div>
@@ -220,7 +223,7 @@
                         </div>
             
                   </div>
-                  <div class="item blue" >
+                  <div *ngIf="test(10,itemsBody)"class="item blue" >
                               <div class="item_img">
                                   <img src="assets/img4.jpg">
                               </div>
@@ -236,7 +239,7 @@
                   
                         </div>
 
-                        <div class="item1 blue">
+                        <div *ngIf="test(11,itemsBody)"class="item blue">
                                     <div class="item_img">
                                         <img src="assets/img2.jpg">
                                     </div>
@@ -251,7 +254,7 @@
                                     </div>
                         
                               </div>
-                              <div class="item blue" >
+                              <div *ngIf="test(12,itemsBody)"class="item blue" >
                                     <div class="item_img">
                                         <img src="assets/img22.jpg">
                                     </div>
@@ -266,7 +269,7 @@
                                     </div>
                         
                               </div>
-                              <div class="item blue" >
+                              <div *ngIf="test(13,itemsBody)"class="item blue" >
                                           <div class="item_img">
                                               <img src="assets/img1.jpg">
                                           </div>
@@ -281,7 +284,8 @@
                                           </div>
                               
                                     </div>
-                                    <div class="item blue" >
+                                    
+                                    <div *ngIf="test(14,itemsBody)" class="item blue" >
                                                 <div class="item_img">
                                                     <img src="assets/img.jpg">
                                                 </div>
@@ -297,7 +301,7 @@
                                     
                                           </div>
 
-                        
+                                   
 
 </div>
 

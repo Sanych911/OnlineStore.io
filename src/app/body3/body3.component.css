@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_wrap{
+    margin-top: 90px;
+    background: #f3f5f8;
+    height: 1557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.shopping_cart_wrap{
+    height: 503px;
+    width: inherit;
+    background: #fff;
+    margin-top: 59px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shopping_cart_text{
+    height: 109px;
+    width: 785px;
+    
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f2f7;
+    
+}
+.shopping_cart_item{
+    height: 99px;
+    width: 785px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #f0f2f7;
+}
+.shopping_cart_item_last{
+    height: 99px;
+    width: 785px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}
+.shopping_cart_info{
+    display: flex;
+    flex-direction: column;
+    height: 99px;
+    width: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 18px;
+    
+}
+.shopping_cart_info h4{
+        font-size: 14px;
+        color: rgb( 161, 168, 189 );     
+}
+
+.shopping_cart_price{
+    display: flex;
+   
+   flex-flow: row nowrap;
+   width: 470px;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.shopping_cart_counter{
+    width: 42px;
+    height: 32px;
+    display: flex;
+    text-align: center;
+    border: 1px solid #e3e8f0;
+    border-radius: 1px;
+}
+.inc{
+    background:none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 10px;
+   margin-right: 44px;
+}
+.del{
+    background:none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 26px;
+}
+.dec{
+    background:none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+   margin-left: 44px;
+
+}
+.price{
+    color: rgb( 20, 37, 88 );
+    font-weight: bold;
+        font-size: 18px;
+        color: rgb( 20, 37, 88 );
+        line-height: 0.6;
+}
+.shopping_cart_result{
+    height: 94px;
+    width: 870px;
+    background: #e3eaef;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    
+}
+.shopping_cart_result_text1{
+    display: flex;
+    margin-left: 61px;
+}
+.shopping_cart_result_text2{
+    display: flex;
+    margin-left: 530px;
+}
+.registration{
+    height: 873px;
+    width: 870px;
+    background: #fff;
+    margin-top: 37px;
+    border-radius: 5px;
+    
+}
+.registration_wrap{
+    display: flex;
+    flex-direction: column;
+    
+    width: 450px;
+    height: inherit;
+    
+    margin-left: 49px;
+}
+.registration_header{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+.registration_header_address{
+    
+        font-size: 20px;
+        
+        color: rgb( 20, 37, 88 );
+        font-weight: bold;
+      margin-top: 30px;  
+}
+.registration_header_city_input{
+    margin-top: 22px;
+    width: 447px;
+    height: 40px;
+    border: 2px solid #e3e8f0;
+    border-radius: 5px;
+        font-size: 14px;
+        color: rgb( 161, 168, 189 );
+        line-height: 1.714;
+        outline: none;
+}
+.registration_header_house{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+width: 447px;
+    height: 40px;
+    margin-top: 24px;
+    
+}
+.registration_header_house_input{
+height: 36px;
+width: 97px;
+
+border: 2px solid #e3e8f0;
+    border-radius: 5px;
+        font-size: 14px;
+        color: rgb( 161, 168, 189 );
+        line-height: 1.714;
+        outline: 0 !important;
+        margin-right: 19px;
+}
+.registration_textarea_comment{
+    margin-top: 22px;
+    width: 447px;
+    height: 107px;
+    border: 2px solid #e3e8f0;
+    border-radius: 5px;
+        font-size: 14px;
+        color: rgb( 161, 168, 189 );
+        line-height: 1.714;
+        outline: none;  
+        resize:none;
+}
+.registration_button{
+    width: 447px;
+    height: 56px;
+    color: #fff;
+    margin-top: 36px;
+    background: #f24841;
+    outline: 0 ;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
