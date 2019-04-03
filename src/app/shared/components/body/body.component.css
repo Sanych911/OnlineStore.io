@@ -189,21 +189,23 @@ margin-bottom: 17px;
 }
 .goods{
     
-    display: flex;
+    
     width: 1170px;
     height: 1703px;
-margin: 0 auto;
+    margin: 0 auto;
 
    
  
 }
 .goods_wrap{
+    height: inherit;
     border: 2px solid red;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding-top: 26px ;
 align-content: flex-start;
+position: static;
 
 
 }
@@ -227,6 +229,7 @@ align-content: flex-start;
 height: 385px;
 align-items: center;
 margin-bottom: 26px;
+
 }
 .item:hover{
    
@@ -279,10 +282,15 @@ margin-bottom: 26px;
     border: 2px solid #f54732;
 } 
 .banner{
-    position: static;
+    position: relative;
     
-   top: 411px;
-   right: 367px;
+    top: 411px;
+    float: top;
+    
+   
+    
+
+
     width: 570px;
     height: 384px;
     border-radius: 2px;
@@ -292,7 +300,7 @@ margin-bottom: 26px;
     background-image: url(/assets/blankets.png);
     background-position: 40% 60%;
     background-repeat: no-repeat;
-
+    
 }
 .banner h2{
     margin-left: 39px;

@@ -15,6 +15,16 @@ import { CheckComponent } from './shared/components/check/check.component';
 import { BootJsonService } from './shared/service/boot-json.service';
 import {FormsModule} from '@angular/forms';
 import { GetDataComponent } from './get-data/get-data.component';
+import { Routes, RouterModule} from '@angular/router'
+
+const appRoutes: Routes = [
+ { path:'',component: BodyComponent,},
+ {path:'status', component:StatusComponent},
+ { path:'items',component: BodyComponent,},
+ { path:'card',component: CardComponent,},
+ { path:'aboutItem',component: CheckComponent,},
+ { path:'ShoppingCart',component: ShoppingCartComponent,}
+]
 
 
 
@@ -35,7 +45,8 @@ import { GetDataComponent } from './get-data/get-data.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
     
   ],
   providers: [BootJsonService],

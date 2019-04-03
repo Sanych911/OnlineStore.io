@@ -140,7 +140,9 @@ color:#a1a7bd;
 .status_button:hover{
     background: #dadee2;
 }
-
+.ShoppingCart a{
+    text-decoration: none;
+}
 .ShoppingCart_button{
     display: flex;
     align-items: center;
@@ -156,6 +158,7 @@ color:#a1a7bd;
     
 }
 .ShoppingCart_button p{
+    
 font-size: 10px;
 font-weight: bold;
 }

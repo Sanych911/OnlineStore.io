@@ -1,329 +1,127 @@
 <div class="body_main">
-     
-          <!--  <li *ngFor="let item of itemsBody">
-            
-            <p>id: {{item?.id}}</p>
-            </li>
-          </ul>
-        -->
-        <p *ngFor="let item of itemsBody">{{item?.id}}</p>
+    <!--
+       <li *ngFor="let item of itemsBody">
+        
+        <p>id: {{item?.id}}</p>
+        </li>
+      --> 
+ 
+   
 
 
-              <div class="placeholder">
-                       <div class="placeholder_wrap">
-                                 <h1 class="blue">Стулья и кресла</h1>
-                             <div class="placeholder_icon">
-                                <img src="assets/Слой-575.png">
-                              </div>
+          <div class="placeholder">
+                   <div class="placeholder_wrap">
+                             <h1 class="blue">Стулья и кресла</h1>
+                         <div class="placeholder_icon">
+                            <img src="assets/placeholder.png">
+                          </div>
 
-                       </div>
-
-              </div>
-
-            <div class="sort">
-
-
-
-                        <div class="price">
-                          <p class="blue">Цена</p>
-
-                        <div class="price_wrap">
-
-                        <div class="price_input1">
-                                <div class="price_min">
-                                     <input type="text blue" placeholder="5300" >
-                                </div>
-                                         <div class="separator"> </div>
-                                        
-                                               <div class="price_max">
-                                                <input type="text blue"  placeholder="12 900">
-                                               </div>
-                        </div>
-                            
-                            
-                                  <div class="slidecontainer">
-                                        <input type="range" min="5300" max="26800" value="50" class="slider" id="myRange">
-                                      
-                                  </div>
-                                  
-                        </div> 
-                        
-                        </div>
-                                        <div class="sortingGoods">
-
-                                             <p class="blue">Сортировка:</p>
-
-                                                <div class="sortingGoods_select">
-                                                        <p><select >
-                                                        <option>По наименованию</option>
-                                                        <option>Дешевые сверху</option>
-                                                        <option>Дорогие сверху</option>
-                                                         </select></p>
-                                                 </div>
-                                        </div>
-
-                                        <div class="sortingList">
-                                            <p class="blue">Товаров на страницe:</p>
-
-                                                   <div class="sortingList_select">
-                                                        <p><select >
-                                                            <option>24</option>
-                                                            <option>14</option>
-                                                          </select></p>
-                                                    </div>
-                                        </div>
-
-
-           </div>
-
-<div class="goods">
-<div class="goods_wrap">
-          <div *ngIf="test(1,itemsBody)" class="item blue" id="1">
-                <div class="item_img">
-                    <img src="assets/hanna1.jpg">
-                </div>
-                <div class="item_text">
-                      <p>Стул Ханна</p>
-                </div>
-                <div class="item_price">
-                        <p>9 399 ₽</p>
-                </div>
-                <div class="item_button">
-                      <p>В Корзину</p>
-                </div>
+                   </div>
 
           </div>
 
-          <div *ngIf="test(2,itemsBody)" class="item blue" >
+        <div class="sort">
+
+
+
+                    <div class="price">
+                      <p class="blue">Цена</p>
+
+                    <div class="price_wrap">
+
+                    <div class="price_input1">
+                            <div class="price_min">
+                                 <input type="text blue" placeholder="5300" >
+                            </div>
+                                     <div class="separator"> </div>
+                                    
+                                           <div class="price_max">
+                                            <input type="text blue"  placeholder="12 900">
+                                           </div>
+                    </div>
+                        
+                        
+                              <div class="slidecontainer">
+                                    <input type="range" min="5300" max="26800" value="50" class="slider" id="myRange">
+                                  
+                              </div>
+                              
+                    </div> 
+                    
+                    </div>
+                                    <div class="sortingGoods">
+
+                                         <p class="blue">Сортировка:</p>
+
+                                            <div class="sortingGoods_select">
+                                                    <p><select >
+                                                    <option>По наименованию</option>
+                                                    <option>Дешевые сверху</option>
+                                                    <option>Дорогие сверху</option>
+                                                     </select></p>
+                                             </div>
+                                    </div>
+
+                                    <div class="sortingList">
+                                        <p class="blue">Товаров на страницe:</p>
+
+                                               <div class="sortingList_select">
+                                                    <p><select >
+                                                        <option>24</option>
+                                                        <option>14</option>
+                                                      </select></p>
+                                                </div>
+                                    </div>
+
+
+       </div>
+
+<div class="goods">
+<div class="goods_wrap">
+<div *ngFor="let item of itemsBody">
+     
+                      
+      <div  class="item blue" >
             <div class="item_img">
-                <img src="assets/img12.jpg">
+                <img src="assets/hanna1.jpg">
             </div>
             <div class="item_text">
-                  <p>Стул Эдинбург</p>
+                  <p>{{item?.name}}</p>
             </div>
             <div class="item_price">
-                    <p>9 399 ₽</p>
+                    <p>{{item?.price}}</p>
             </div>
             <div class="item_button">
                   <p>В Корзину</p>
             </div>
-
       </div>
-
-      <div *ngIf="test(3,itemsBody)" class="item blue" >
-            <div class="item_img">
-                <img src="assets/img11.jpg">
-            </div>
-            <div class="item_text">
-                  <p>Стул Сольер</p>
-            </div>
-            <div class="item_price">
-                    <p>9 399 ₽</p>
-            </div>
-            <div class="item_button">
-                  <p>В Корзину</p>
-            </div>
-
-      </div>
-
-      <div *ngIf="test(4,itemsBody)" class="item blue" >
-            <div class="item_img">
-                <img src="assets/img10.jpg">
-            </div>
-            <div class="item_text">
-                  <p>Стул Стелла</p>
-            </div>
-            <div class="item_price">
-                    <p>9 399 ₽</p>
-            </div>
-            <div class="item_button">
-                  <p>В Корзину</p>
-            </div>
-
-      </div>
-
-      <div *ngIf="test(5,itemsBody)"class="item blue">
-            <div class="item_img">
-                <img src="assets/img9.jpg">
-            </div>
-            <div class="item_text">
-                  <p>Стул Бланес</p>
-            </div>
-            <div class="item_price">
-                    <p>9 399 ₽</p>
-            </div>
-            <div class="item_button">
-                  <p>В Корзину</p>
-            </div>
-
-      </div>
-      <div *ngIf="test(6,itemsBody)" class="item blue" >
-            <div class="item_img">
-                <img src="assets/img8.jpg">
-            </div>
-            <div class="item_text">
-                  <p>Кресло Гоа</p>
-            </div>
-            <div class="item_price">
-                    <p>9 399 ₽</p>
-            </div>
-            <div class="item_button">
-                  <p>В Корзину</p>
-            </div>
-
-      </div>
-      <div  class="banner">
-            <h2 class="blue">Товары для дома<br> со скидкой </h2>
-           <button class="banner_button blue">Смотреть все</button>
-          
      
       </div>
-      <div *ngIf="test(7,itemsBody)" class="item blue">
-                  <div class="item_img">
-                      <img src="assets/img7.jpg">
-                  </div>
-                  <div class="item_text">
-                        <p>Кресло Мильтон</p>
-                  </div>
-                  <div class="item_price">
-                          <p>9 399 ₽</p>
-                  </div>
-                  <div class="item_button">
-                        <p>В Корзину</p>
-                  </div>
-      
-            </div>
-            <div *ngIf="test(8,itemsBody)" class="item blue" >
-                  <div class="item_img">
-                      <img src="assets/img6.jpg">
-                  </div>
-                  <div class="item_text">
-                        <p>Кресло Ханна</p>
-                  </div>
-                  <div class="item_price">
-                          <p>9 399 ₽</p>
-                  </div>
-                  <div class="item_button">
-                        <p>В Корзину</p>
-                  </div>
-      
-            </div>
-            <div *ngIf="test(9,itemsBody)"class="item blue" >
-                        <div class="item_img">
-                            <img src="assets/img5.jpg">
-                        </div>
-                        <div class="item_text">
-                              <p>Стул Рикардо</p>
-                        </div>
-                        <div class="item_price">
-                                <p>9 399 ₽</p>
-                        </div>
-                        <div class="item_button">
-                              <p>В Корзину</p>
-                        </div>
-            
-                  </div>
-                  <div *ngIf="test(10,itemsBody)"class="item blue" >
-                              <div class="item_img">
-                                  <img src="assets/img4.jpg">
-                              </div>
-                              <div class="item_text">
-                                    <p>Стул Версаль</p>
-                              </div>
-                              <div class="item_price">
-                                      <p>9 399 ₽</p>
-                              </div>
-                              <div class="item_button">
-                                    <p>В Корзину</p>
-                              </div>
-                  
-                        </div>
-
-                        <div *ngIf="test(11,itemsBody)"class="item blue">
-                                    <div class="item_img">
-                                        <img src="assets/img2.jpg">
-                                    </div>
-                                    <div class="item_text">
-                                          <p>Стул Лина</p>
-                                    </div>
-                                    <div class="item_price">
-                                            <p>9 399 ₽</p>
-                                    </div>
-                                    <div class="item_button">
-                                          <p>В Корзину</p>
-                                    </div>
-                        
-                              </div>
-                              <div *ngIf="test(12,itemsBody)"class="item blue" >
-                                    <div class="item_img">
-                                        <img src="assets/img22.jpg">
-                                    </div>
-                                    <div class="item_text">
-                                          <p>Кресло София</p>
-                                    </div>
-                                    <div class="item_price">
-                                            <p>9 399 ₽</p>
-                                    </div>
-                                    <div class="item_button">
-                                          <p>В Корзину</p>
-                                    </div>
-                        
-                              </div>
-                              <div *ngIf="test(13,itemsBody)"class="item blue" >
-                                          <div class="item_img">
-                                              <img src="assets/img1.jpg">
-                                          </div>
-                                          <div class="item_text">
-                                                <p>Стул Родос</p>
-                                          </div>
-                                          <div class="item_price">
-                                                  <p>9 399 ₽</p>
-                                          </div>
-                                          <div class="item_button">
-                                                <p>В Корзину</p>
-                                          </div>
-                              
-                                    </div>
-                                    
-                                    <div *ngIf="test(14,itemsBody)" class="item blue" >
-                                                <div class="item_img">
-                                                    <img src="assets/img.jpg">
-                                                </div>
-                                                <div class="item_text">
-                                                      <p>Стул Бетти</p>
-                                                </div>
-                                                <div class="item_price">
-                                                        <p>9 399 ₽</p>
-                                                </div>
-                                                <div class="item_button">
-                                                      <p>В Корзину</p>
-                                                </div>
-                                    
-                                          </div>
-
-                                   
-
-</div>
-
+      <div  class="banner">
+                  <h2 class="blue">Товары для дома<br> со скидкой </h2>
+                 <button class="banner_button blue">Смотреть все</button>
+          </div> 
+     
+       
 
 
 </div>
 
 <div class="page ">
-      <ul class="pager blue">
-            <button class="pager_button1 blue"><<</button>
-            <button class="pager_button blue"><</button>
-            <li ><a href="#">1</a></li>
-            <li ><a href="#">2</a></li>
-            <li class="active"><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">6</a></li>
-            <li><a href="#">7</a></li>
-            <li><a href="#">8</a></li>
-            <button class="pager_button1">></button>
-            <button class="pager_button">>></button>
-           </ul>
+  <ul class="pager blue">
+        <button class="pager_button1 blue"><<</button>
+        <button class="pager_button blue"><</button>
+        <li ><a href="#">1</a></li>
+        <li ><a href="#">2</a></li>
+        <li class="active"><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <button class="pager_button1">></button>
+        <button class="pager_button">>></button>
+       </ul>
 </div>
 
 
