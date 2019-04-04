@@ -193,23 +193,21 @@ margin-bottom: 17px;
     width: 1170px;
     height: 1703px;
     margin: 0 auto;
-
-   
+   position: relative;
+  
  
 }
 .goods_wrap{
+    
     height: inherit;
-    border: 2px solid red;
+   
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding-top: 26px ;
-align-content: flex-start;
-position: static;
-
-
+    align-content: flex-start;
 }
-
 
 .item1:hover{
    
@@ -281,16 +279,12 @@ margin-bottom: 26px;
 .item_button:hover{
     border: 2px solid #f54732;
 } 
+.test:nth-child(n+8):not(.banner) {  /* у flex-элементов, следующих после третьего номера включительно, кроме того, кто имеет класс .ad */
+    order: 3;
+  }
 .banner{
-    position: relative;
     
-    top: 411px;
-    float: top;
-    
-   
-    
-
-
+    order: 2;
     width: 570px;
     height: 384px;
     border-radius: 2px;

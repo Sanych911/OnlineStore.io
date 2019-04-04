@@ -1,60 +1,129 @@
 { 
     "itemList":
     [{
-        "name": "Hanna",
-        "price": 9399,
-	"id" : 1
+  
+       "name": "Hanna",
+       
+       "price": 9399,
+	
+       "id" : 1
+,
+       "img" : "assets/hanna1.jpg"    
+},{
+      
+  "name": "Edinburg",
+      
+  "price": 9399,
+	
+"id" : 2
+ ,
+"img" : "assets/img12.jpg"  
+   },{
+ 
+       "name": "Soler",
+  
+      "price": 9399,
+       
+ "id" : 3
+,
+"img" : "assets/img11.jpg"  
     },{
-        "name": "Edinburg",
-        "price": 9399,
-	"id" : 2
-    },{
-        "name": "Soler",
-        "price": 9399,
-        "id" : 3
-    },{
+
 	"name": "Stella",
-        "price": 9399,
-        "id" : 4
-    },{
-	"name": "Blanes",
-        "price": 9399,
-        "id" : 5
-    },{
+ 
+       "price": 9399,
+   
+     "id" : 4
+,
+"img" : "assets/img10.jpg"    
+  },{
+	
+"name": "Blanes",
+  
+      "price": 9399,
+  
+      "id" : 5
+,
+"img" : "assets/img9.jpg"     
+ },{
 	"name": "Goa",
-        "price": 9399,
-        "id" : 6
-    },{
+  
+      "price": 9399,
+   
+     "id" : 6
+ ,
+"img" : "assets/img8.jpg"    
+ },{
 	"name": "Milton",
-        "price": 9399,
-        "id" : 7
-    },{
-	"name": "K.Hanna",
-        "price": 9399,
+  
+      "price": 9399,
+   
+     "id" : 7
+ ,
+"img" : "assets/img7.jpg"    
+ },{
+	
+"name": "K.Hanna",
+   
+     "price": 9399,
+
         "id" : 8
-    },{
-	"name": "Ricardo",
-        "price": 9399,
-        "id" : 9
-    },{
-	"name": "Versal",
-        "price": 9399,
-        "id" : 10
-    },{
-	"name": "Lina",
-        "price": 9399,
-        "id" : 11
-    },{
-	"name": "Sofia",
-        "price": 9399,
-        "id" : 12
-    },{
-	"name": "Rodos",
-        "price": 9399,
-        "id" : 13
-    },{
+ ,
+"img" : "assets/img6.jpg"   
+  },{
+	
+"name": "Ricardo",
+  
+      "price": 9399,
+  
+      "id" : 9
+ ,
+"img" : "assets/img5.jpg"    
+ },{
+	
+"name": "Versal",
+  
+      "price": 9399,
+ 
+       "id" : 10
+,
+"img" : "assets/img4.jpg"     
+ },{
+	
+"name": "Lina",
+   
+     "price": 9399,
+ 
+       "id" : 11,
+"img" : "assets/img2.jpg"  
+ 
+   },{
+	
+"name": "Sofia",
+   
+     "price": 9399,
+ 
+       "id" : 12
+,
+"img" : "assets/img22.jpg"   
+  },{
+	
+"name": "Rodos",
+   
+     "price": 9399,
+  
+      "id" : 13
+ ,
+"img" : "assets/img1.jpg"  
+  },{
+
 	"name": "Bettis",
+
         "price": 9399,
-        "id" : 14
-    }]
+    
+    "id" : 14,
+
+"img" : "assets/img.jpg"  
+   
+ }]
 }

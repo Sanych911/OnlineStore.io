@@ -17,12 +17,14 @@ import {FormsModule} from '@angular/forms';
 import { GetDataComponent } from './get-data/get-data.component';
 import { Routes, RouterModule} from '@angular/router'
 
+
+
 const appRoutes: Routes = [
- { path:'',component: BodyComponent,},
- {path:'status', component:StatusComponent},
+ { path:'',component:BodyComponent,},
+ {path:'status', component:CheckComponent},
  { path:'items',component: BodyComponent,},
  { path:'card',component: CardComponent,},
- { path:'aboutItem',component: CheckComponent,},
+ { path:'way',component: StatusComponent,},
  { path:'ShoppingCart',component: ShoppingCartComponent,}
 ]
 

@@ -6,7 +6,7 @@
         </li>
       --> 
  
-   
+      
 
 
           <div class="placeholder">
@@ -76,36 +76,40 @@
 
        </div>
 
-<div class="goods">
-<div class="goods_wrap">
-<div *ngFor="let item of itemsBody">
-     
-                      
-      <div  class="item blue" >
-            <div class="item_img">
-                <img src="assets/hanna1.jpg">
-            </div>
-            <div class="item_text">
-                  <p>{{item?.name}}</p>
-            </div>
-            <div class="item_price">
-                    <p>{{item?.price}}</p>
-            </div>
-            <div class="item_button">
-                  <p>В Корзину</p>
-            </div>
+      <div class="goods">
+                  
+                             
+                              
+          <div class="goods_wrap">
+                  <div  class="banner">
+                              <h2 class="blue">Товары для дома<br> со скидкой </h2>
+                             <button class="banner_button blue">Смотреть все</button>
+                      </div> 
+                   <div *ngFor="let item of itemss" class="test">
+                        
+                        
+                              <div  class="item blue" >
+                                  <div class="item_img">
+                                       <img src="{{item.img}}">
+                                  </div>
+                                           <div class="item_text">
+                                                  <p>{{item.name}}</p>
+                                           </div >
+                                           <div class="item_price">
+                                                  <p>{{item.price}}</p>
+                                           </div>
+                                           <div (click)="inCard($Event)"class="item_button">
+                                                  <p>В Корзину</p>
+                                           </div>
+                              </div>
+                             
+                        </div>
+                       
+                  </div>
+                  
       </div>
-     
-      </div>
-      <div  class="banner">
-                  <h2 class="blue">Товары для дома<br> со скидкой </h2>
-                 <button class="banner_button blue">Смотреть все</button>
-          </div> 
-     
-       
+ 
 
-
-</div>
 
 <div class="page ">
   <ul class="pager blue">
